@@ -125,6 +125,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-[:dennis_ritchie][:languages] = ["C", "Assembly"]
+[:dennis_ritchie][:languages][1] = ["C", "Assembly"]
 
 end
