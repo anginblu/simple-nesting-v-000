@@ -101,10 +101,11 @@ def changing_alan
           :languages => ["Smalltalk", "LISP"]
         },
         :dennis_ritchie => {
-          :known_for => "GUI",
+          :known_for => "Unix",
           :languages => ["C"]
         }
      }
+programmer_hash[:alan_kay][:known_for] = "GUI"
 
 end
 
